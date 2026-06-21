@@ -152,16 +152,6 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    role: "Machine Learning Engineer",
-    company: "Turing",
-    period: "Oct 2025 — Apr 2026",
-    description: [
-      "Built end-to-end ML pipelines (ingestion → training → evaluation → deployment → monitoring) on AWS, reducing iteration time and standardising the path from prototype to production.",
-      "Deployed and monitored LLM/ML services with Docker + Kubernetes; instrumented drift, latency, and accuracy via MLflow with automated retraining on threshold breach.",
-      "Optimised inference performance (batching, caching, quantisation) to meet strict latency SLOs in production.",
-    ],
-  },
-  {
     role: "Software Engineer",
     company: "SimpleTest",
     period: "2024",
@@ -169,6 +159,16 @@ export const experiences: Experience[] = [
       "Built a RAG pipeline (FastAPI, Gemini, Qdrant) converting natural-language prompts into executable Salesforce test cases with streaming output and multi-tenant retrieval.",
       "Designed the test orchestration service around Kafka and Redis producer/consumer flows with at-least-once delivery and MongoDB state persistence.",
       "Developed browser/mobile automation engines (Playwright, Appium) with AI-generated locator evaluation, MFA handling, and an autonomous browser agent powered by Claude.",
+    ],
+  },
+  {
+    role: "Machine Learning Engineer",
+    company: "Turing",
+    period: "Oct 2025 — Apr 2026",
+    description: [
+      "Built end-to-end ML pipelines (ingestion → training → evaluation → deployment → monitoring) on AWS, reducing iteration time and standardising the path from prototype to production.",
+      "Deployed and monitored LLM/ML services with Docker + Kubernetes; instrumented drift, latency, and accuracy via MLflow with automated retraining on threshold breach.",
+      "Optimised inference performance (batching, caching, quantisation) to meet strict latency SLOs in production.",
     ],
   },
   {
