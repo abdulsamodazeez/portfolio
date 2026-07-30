@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Globe, BookOpen, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, BookOpen, Mail } from "lucide-react";
 import { site, socials } from "@/lib/data";
 
 const socialLinks = [
@@ -6,7 +6,6 @@ const socialLinks = [
   { href: socials.linkedin, label: "LinkedIn", icon: Linkedin },
   { href: socials.twitter, label: "Twitter", icon: Twitter },
   { href: socials.hashnode, label: "Blog", icon: BookOpen },
-  { href: socials.website, label: "Website", icon: Globe },
   { href: `mailto:${site.email}`, label: "Email", icon: Mail },
 ];
 

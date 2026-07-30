@@ -25,7 +25,6 @@ export const socials = {
   linkedin: "https://www.linkedin.com/in/abdulsamodazeez",
   twitter: "https://twitter.com/abdulsamodazeez",
   hashnode: "https://abdulsamodazeez.hashnode.dev",
-  website: "https://abdulsamodazeez.com",
 };
 
 export const about = {

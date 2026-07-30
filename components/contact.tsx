@@ -4,7 +4,6 @@ import {
   Github,
   Linkedin,
   Twitter,
-  Globe,
   BookOpen,
   ArrowUpRight,
 } from "lucide-react";
@@ -17,7 +16,6 @@ const channels = [
   { href: socials.linkedin, label: "LinkedIn", icon: Linkedin },
   { href: socials.twitter, label: "Twitter", icon: Twitter },
   { href: socials.hashnode, label: "Hashnode", icon: BookOpen },
-  { href: socials.website, label: "Website", icon: Globe },
 ];
 
 export function Contact() {
