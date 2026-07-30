@@ -15,7 +15,7 @@ export function Experience() {
       id="experience"
       eyebrow="04 — Experience"
       title="Where I've worked"
-      description="Three-plus years across ML engineering, data science, software, and mentorship."
+      description="Years of experience across ML engineering, data science, software, and mentorship."
       className="bg-muted/30"
     >
       <div className="grid gap-12 lg:grid-cols-3">
