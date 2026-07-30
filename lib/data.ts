@@ -21,7 +21,7 @@ export const site = {
 };
 
 export const socials = {
-  github: "https://github.com/abdulsamod",
+  github: "https://github.com/abdulsamodazeez",
   linkedin: "https://www.linkedin.com/in/abdulsamodazeez",
   twitter: "https://twitter.com/abdulsamodazeez",
   hashnode: "https://abdulsamodazeez.hashnode.dev",
