@@ -9,7 +9,7 @@ export function Projects() {
       id="projects"
       eyebrow="03 — Projects"
       title="Selected work"
-      description="A few systems I've built end-to-end — from raw data and modelling through to deployment and monitoring."
+      description="A few systems I've built end-to-end, from raw data and modelling through to deployment and monitoring."
     >
       <div className="grid gap-6 md:grid-cols-3">
         {projects.map((project, i) => (

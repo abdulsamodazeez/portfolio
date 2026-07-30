@@ -8,7 +8,7 @@ export function Skills() {
       id="skills"
       eyebrow="02 — Skills"
       title="Technical toolkit"
-      description="The tools and technologies I reach for to take models from notebook to production — and keep them running."
+      description="The tools and technologies I reach for to take models from notebook to production and keep them running."
       className="bg-muted/30"
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

@@ -28,7 +28,7 @@ export function Contact() {
           <p className="text-lg leading-relaxed text-muted-foreground">
             I&apos;m open to roles, collaborations, and conversations about AI,
             ML, and using data to solve hard problems. The fastest way to reach
-            me is email — I read every message.
+            me is email, and I read every message.
           </p>
 
           <div className="mt-8 space-y-4">

@@ -11,7 +11,7 @@ export const site = {
     "Python Engineer",
   ],
   tagline:
-    "Machine Learning Engineer with 3+ years designing, building, and deploying production AI — from LLM applications and retrieval-augmented generation (RAG) pipelines to full ML lifecycles on AWS, Docker, and Kubernetes. I turn complex data into reliable, scalable systems that solve real problems in healthcare, education, and digital access.",
+    "Machine Learning Engineer with years of experience designing, building, and deploying production AI, from LLM applications and retrieval-augmented generation (RAG) pipelines to full ML lifecycles on AWS, Docker, and Kubernetes. I turn complex data into reliable, scalable systems that solve real problems in healthcare, education, and digital access.",
   location: "Lagos State, Nigeria",
   email: "abdulsamod2@gmail.com",
   phones: ["+234 815 650 9251", "+234 813 058 3872"],
@@ -30,7 +30,7 @@ export const socials = {
 
 export const about = {
   summary: [
-    "I'm a Machine Learning Engineer with 3+ years of experience building and deploying AI-powered systems, including LLM applications and retrieval-augmented generation (RAG) pipelines. I'm passionate about leveraging data and AI to solve real-world challenges in emerging markets — particularly in healthcare, education, and digital access.",
+    "I'm a Machine Learning Engineer with years of experience building and deploying AI-powered systems, including LLM applications and retrieval-augmented generation (RAG) pipelines. I'm passionate about leveraging data and AI to solve real-world challenges in emerging markets, particularly in healthcare, education, and digital access.",
     "I work across the full ML lifecycle, from data engineering and modelling to scalable deployment using AWS, Docker, and Kubernetes. I have a strong background in NLP and transformer-based systems, and a proven ability to translate complex data into actionable insights. As a mentor, researcher, and community contributor, I've guided 50+ learners and supported the growth of data science ecosystems.",
   ],
   highlights: [
