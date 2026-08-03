@@ -14,7 +14,7 @@ export function Footer() {
     <footer className="border-t border-border py-10">
       <div className="container-px flex flex-col items-center justify-between gap-6 sm:flex-row">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} {site.name}. Built with Next.js & Tailwind.
+          © {new Date().getFullYear()} {site.name}.
         </p>
         <div className="flex items-center gap-1">
           {socialLinks.map(({ href, label, icon: Icon }) => (
