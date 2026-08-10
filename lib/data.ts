@@ -117,6 +117,7 @@ export const projects: Project[] = [
     links: [
       { label: "GitHub", href: "https://github.com/abdulsamodazeez/5g-root-cause-llm" },
       { label: "Model", href: "https://huggingface.co/abdulsamod/qwen3-4b-5g-root-cause" },
+      { label: "Write-up", href: "https://abdulsamodazeez.hashnode.dev/listening-to-the-network-teaching-a-4b-model-to-diagnose-5g-faults" },
     ],
     featured: true,
   },
