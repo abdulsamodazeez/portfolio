@@ -58,6 +58,23 @@ export function Projects() {
                   </span>
                 ))}
               </div>
+
+              {project.links && project.links.length > 0 && (
+                <div className="mt-5 flex flex-wrap gap-4 border-t border-border pt-4">
+                  {project.links.map((link) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-accent"
+                    >
+                      {link.label}
+                      <ArrowUpRight className="h-4 w-4" />
+                    </a>
+                  ))}
+                </div>
+              )}
             </article>
           </Reveal>
         ))}

@@ -105,6 +105,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "5G Root-Cause Diagnosis with an Edge-Sized LLM",
+    description:
+      "An end-to-end fault-diagnosis system for 5G networks: deterministic code measures raw drive-test telemetry, and a fine-tuned Qwen3-4B — small enough for edge servers — weighs the measurements and explains the root cause.",
+    highlights: [
+      "99.1% accuracy on an independent benchmark (2nd of 130 teams, Cassava AI / Deep Learning Indaba 2026)",
+      "Feature verbalization took the same 4B model from ~12% (raw tables) to 99%",
+      "LoRA fine-tuning with self-consistency voting; general capability preserved by construction",
+    ],
+    tags: ["Qwen3-4B", "LoRA", "Telecom", "Edge AI", "PyTorch"],
+    links: [
+      { label: "GitHub", href: "https://github.com/abdulsamodazeez/5g-root-cause-llm" },
+      { label: "Model", href: "https://huggingface.co/abdulsamod/qwen3-4b-5g-root-cause" },
+    ],
+    featured: true,
+  },
+  {
     title: "AI-Powered Heart Disease Prediction System",
     description:
       "An end-to-end ML pipeline for early cardiovascular risk detection, designed to support data-driven healthcare decisions in resource-constrained environments.",
